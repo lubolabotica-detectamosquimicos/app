@@ -1,0 +1,9 @@
+:root {
+  --fondo: #FFFFFF; --texto: #1A1A1A; --primario: #2E7D32;
+  --verde: #2E9E4F; --amarillo: #F2B705; --rojo: #D64545; --gris: #8A8A8A;
+}
+body { margin: 0; background: var(--fondo); color: var(--texto);
+       font-family: system-ui, sans-serif; line-height: 1.5; }
+main { max-width: 640px; margin: 0 auto; padding: 24px 16px; }
+input, button { font: inherit; padding: 10px 14px; }
+:focus-visible { outline: 3px solid var(--primario); outline-offset: 2px; }
